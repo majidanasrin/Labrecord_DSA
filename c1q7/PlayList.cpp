@@ -99,10 +99,10 @@ void printPlaylist(Song* head) {
 
 int main() {
 
-    Song* head = new Song("ME", "Taylor Swift", 180, "Pop");
-    head->next = new Song("Thinkin Out Loud", "Ed Sheeran", 240, "Pop");
-    head->next->next = new Song("Skyfall", "Adele", 200, "Soundtrack");
-    head->next->next->next = new Song("K.", "Cigarettes After Sex", 220, "Alternative");
+    Song* head = new Song("Apocalypse", "Cigarettes After Sex", 180, "Alternative");
+    head->next = new Song("Wanna Be Yours", "Arctic Monkeys", 240, "Indie Rock");
+    head->next->next = new Song("Dark Red", "Steve Lacy", 200, "R&B");
+    head->next->next->next = new Song("Careless Whisper", "George Michael", 220, "Pop");
 
     cout << "Original Playlist:" << endl;
     printPlaylist(head);
