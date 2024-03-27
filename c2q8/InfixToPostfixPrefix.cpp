@@ -1,4 +1,4 @@
-  #include <stack>
+#include <stack>
 #include <algorithm>
 #include "InfixToPostfixPrefix.h"
 
